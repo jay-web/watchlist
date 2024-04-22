@@ -10,6 +10,10 @@ export const StyledModal = styled.div`
   box-shadow: var(--shadow-lg);
   padding: 3.2rem 4rem;
   transition: all 0.5s;
+
+  @media screen and (max-width: 620px) {
+    width: 95%;
+  }
 `;
 
 export const Overlay = styled.div`

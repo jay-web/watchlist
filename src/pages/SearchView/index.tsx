@@ -29,7 +29,7 @@ const SearchView = () => {
           </p>
         </StyledInstruction>
       </Header>
-      <SearchBar query={query} setQuery={setQuery}>
+      <SearchBar query={query} setQuery={setQuery} navigatePath="/">
         <Button type="submit"> Search</Button>
       </SearchBar>
      <StyledOutlet>

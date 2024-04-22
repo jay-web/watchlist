@@ -17,9 +17,5 @@ export const StyledSidebar = styled.aside`
     }
 `
 
-export const Logo = styled.h1`
-    color: var(--color-brand-500);
-    font-weight: bold;
-    letter-spacing: 2px;
-`
+
 

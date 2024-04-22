@@ -30,9 +30,9 @@ const Playlist = () => {
     }
   });
 
-  console.log(allMoviesInWatchlist);
+ 
 
-  if (playlistname == "all" && allMoviesInWatchlist.length == 0) {
+  if (playlistname == "all" && allMoviesInWatchlist.length == 0 && filter.length === 0) {
     return <NoMovie>No movies are in your playlists</NoMovie>;
   }
 

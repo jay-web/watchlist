@@ -4,11 +4,12 @@ import Box from "../../ui/box";
 import NavBar from "../NavBar";
 
 import User from "../User";
-import { Logo, StyledSidebar } from "./style";
+import {  StyledSidebar } from "./style";
 import { useAuth } from "../../context/auth";
 
 import { useWatchedContext } from "../../context/watched";
 import SearchBar from "../SearchBar";
+import Logo from "../../ui/logo";
 
 
 const SideBar = () => {
@@ -30,7 +31,7 @@ const SideBar = () => {
     <StyledSidebar>
       <Box>
         <Logo>Watchlists</Logo>
-        <SearchBar query={queryInWatchlist} setQuery={setQueryInWatchlist}></SearchBar>
+        <SearchBar placeholder="search in playlist" query={queryInWatchlist} setQuery={setQueryInWatchlist} navigatePath="/list/all"></SearchBar>
         <NavBar />
       </Box>
       <Box>

@@ -22,7 +22,7 @@ export const getMovies = async (query:string):Promise<IMovie[] | null> => {
      
   
     } catch (error: any) {
-        console.log(error)
+        
         return sendError(error);
     }
   };
@@ -33,12 +33,12 @@ export const getMovieById = async (id:string):Promise<IMovie> => {
 
         const response = await axios.get(`${BASE_URL}?i=${id}&apikey=${apiKey}`);
         const data = await response.data;
-        console.log(data);
+        
         return data;
      
   
     } catch (error: any) {
-        console.log(error)
+       
         return sendError(error);
     }
   };

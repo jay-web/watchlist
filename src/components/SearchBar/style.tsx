@@ -10,7 +10,7 @@ export const StyledForm = styled.form`
     
 
     & input{
-        padding:.5rem 3.4rem;
+        padding:.5rem 0px .5rem 3.4rem;
         width: 100%;
         border: 1px solid var(--color-grey-300);
         border-radius: var(--border-radius-sm);
@@ -21,6 +21,7 @@ export const StyledForm = styled.form`
       }
         &::placeholder{
             opacity:0.5;
+            font-size: 1.5rem;
         }
     
     }

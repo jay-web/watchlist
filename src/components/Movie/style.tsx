@@ -45,6 +45,14 @@ export const StyledCard = styled.div`
       transform: scale(0.9);
     }
   }
+
+  @media screen and (max-width: 620px)  {
+    /* width: 70%; */
+    width: 250px;
+   
+        
+        
+    }
 `;
 
 export const Title = styled.p`

@@ -9,8 +9,8 @@ const StyledAppLayout = styled.div `
 
 
     @media screen and (max-width: 500px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
 
     }
     
